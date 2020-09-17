@@ -1,0 +1,212 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    min-height: 100%;
+    background-image: url("scales.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.banner-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-image>h1 {
+    padding-top: 250px;
+    padding-left: 50px;
+    color: #e6ac30;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.home {
+    background-image: linear-gradient(rgba(158, 111, 111, 0.39), rgba(0, 0, 0, 0.55)), url("banner.jpg");
+    background-position: bottom;
+}
+
+.stormlands {
+    background-position: 50% 19%;
+    background-image: url("stormsEnd.jpg");
+}
+
+.dorne {
+    background-position: 50% 25;
+    background-image: url("dorneGarden.jpg");
+}
+
+.reach {
+    background-position: center;
+    background-image: url("highGarden.jpg");
+}
+
+.crownlands {
+    background-position: 50% 55%;
+    background-image: url("kingsLanding.jpg");
+}
+
+.westerlands {
+    background-position: 50% 7%;
+    background-image: url("casterlyRock.jpg");
+}
+
+.vale {
+    background-position: 50% 0%;
+    background-image: url("eyrie.jpg");
+}
+
+.riverlands {
+    background-position: 50% 25%;
+    background-image: url("twins.jpg");
+}
+
+.ironIslands {
+    background-position: 50% 0%;
+    background-image: url("pyke.jpg");
+}
+
+.north {
+    background-position: 50% 10%;
+    background-image: url("winterfell.jpg");
+}
+
+.paragraph {
+    margin: auto;
+}
+
+.paragraph p {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 20px;
+    max-width: 60%;
+    background-color: rgb(45, 43, 53);
+}
+
+.navBar {
+    background-color: rgb(45, 43, 53);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.navBar a {
+    font-family: 'Cinzel', serif;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navBar a:hover {
+    background-color: #e6ac30;
+    color: black;
+}
+
+.navBar a.active {
+    background-color: #555555;
+    color: white;
+}
+
+.westeros_map {
+    display: block;
+    max-width: 30%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid transparent;
+    padding: 0px;
+    border-image: url(borderImage.jpg) 30 round;
+}
+
+.container {
+    margin: auto;
+    position: relative;
+    width: 75%;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+.container .btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: Black;
+    font-size: 1vw;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 2px 2px 5px #e6ac30;
+}
+
+.container .btn:hover {
+    font-size: 1.25vw;
+}
+
+.container .small-btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: Black;
+    font-size: .75vw;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #e6ac30;
+}
+
+.container .small-btn:hover {
+    font-size: 1vw;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgb(45, 43, 53);
+    min-width: 40%;
+}
+
+th,
+td {
+    border: 1px solid white;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color: #f2f2f2;
+    text-align: center;
+    max-width: 100px;
+}
+
+th {
+    background-color: #555555;
+}
+
+.table-image {
+    max-width: 100px;
+}
+
+ul {
+    margin: auto;
+    text-align: left
+}
